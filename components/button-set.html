@@ -1,31 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tombol</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan Tombol</title>
 
     <style>
-      .btn {
-        padding: 12px 24px;
-        display: inline-block;
-        border-radius: 8px;
-        color: rgb(92, 46, 46);
-      }
-    </style>
-  </head>
-  <body>
-    <h2>Tombol</h2>
+        /* Pengaturan halaman */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e4d1d1;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
+        }
 
-    <div class="button-group">
-      <a href="#" class="btn btn-primary">Utama</a>
-      <a href="#" class="btn btn-secondary">Sekunder</a>
-      <a href="#" class="btn btn-outline">Outline</a>
-      <a href="#" class="btn btn-send">Kirim</a>
+        /* Judul */
+        h1 {
+            color: #493b3b;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #423c3c;
+            margin-bottom: 30px;
+        }
+
+        /* Tempat kumpulan tombol */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        /* Desain dasar tombol */
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        /* Tombol utama */
+        .btn-primary {
+            background-color: #8aaacc;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #9aadc1;
+        }
+
+        /* Tombol sekunder */
+        .btn-secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #545b62;
+        }
+
+        /* Tombol sukses */
+        .btn-success {
+            background-color: #8da993;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background-color: #4b5b4e;
+        }
+
+        /* Tombol peringatan */
+        .btn-warning {
+            background-color: #9d9783;
+            color: #212529;
+        }
+
+        .btn-warning:hover {
+            background-color: #59564c;
+        }
+
+        /* Tombol bahaya */
+        .btn-danger {
+            background-color: #ac8a8d;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background-color: #96696e;
+        }
+
+        /* Tombol informasi */
+        .btn-info {
+            background-color: #63878d;
+            color: white;
+        }
+
+        .btn-info:hover {
+            background-color: #5d7174;
+        }
+
+        /* Efek saat tombol ditekan */
+        .btn:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Kumpulan Tombol</h1>
+    <p>Berbagai jenis tombol dengan warna dan efek berbeda.</p>
+
+    <div class="button-container">
+
+        <a href="#primary" class="btn btn-primary">Primary</a>
+
+        <a href="#secondary" class="btn btn-secondary">Secondary</a>
+
+        <a href="#success" class="btn btn-success">Success</a>
+
+        <a href="#warning" class="btn btn-warning">Warning</a>
+
+        <a href="#danger" class="btn btn-danger">Danger</a>
+
+        <a href="#info" class="btn btn-info">Info</a>
+
     </div>
 
-    <footer>
-      <a href="../index.html">Kembali ke Beranda</a>
-    </footer>
-  </body>
+</body>
 </html>
