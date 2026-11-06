@@ -1,0 +1,119 @@
+/* Mengatur semua bagian halaman */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Mengatur tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+/* Bagian atas halaman */
+.header {
+    background-color: rgb(121, 121, 151);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+/* Bagian isi halaman */
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Bagian tentang saya */
+.about-section {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Foto profil */
+.profile-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Tulisan tentang saya */
+.about-content h2 {
+    color: rgb(130, 130, 172);
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    background-color: rgb(144, 132, 161);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+/* Informasi pribadi */
+.information {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.information h2 {
+    margin-bottom: 15px;
+}
+
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.info-card {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    min-width: 120px;
+}
+
+.info-card h3 {
+    color: rgb(84, 84, 119);
+    margin-bottom: 10px;
+}
+
+/* Keahlian */
+.skills {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 15px;
+}
+
+.skill-list span {
+    display: inline-block;
+    background-color: rgb(93, 101, 122);
+    color: white;
+    padding: 8px;
+    margin: 5px;
+}
+
+/* Bagian bawah halaman */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
