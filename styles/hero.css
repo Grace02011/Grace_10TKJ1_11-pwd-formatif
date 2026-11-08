@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.hero {
+    height: 80vh;
+    background-color: #96a4b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    padding: 20px;
+    animation: muncul 2s;
+}
+
+.hero-content h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color: rgb(97, 97, 128);
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: lightgray;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
