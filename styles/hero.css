@@ -4,13 +4,13 @@ body {
     background-color: #f2f2f2;
 }
 .hero {
-    height: 80vh;
-    background-color: #96a4b4;
+    height: 400px;
+    background-color: rgba(38, 58, 54);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgba(160, 197, 146);
 }
 
 .hero-content {
