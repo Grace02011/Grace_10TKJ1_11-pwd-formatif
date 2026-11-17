@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-    background-color: #222;
+    background-color: black;
     color: white;
     padding: 15px;
     display: flex;
@@ -88,4 +88,10 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+}
+
+header {
+    background-color: black;
+    align-self: center;
+    color: white;
 }

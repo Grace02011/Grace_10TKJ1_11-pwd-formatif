@@ -16,7 +16,7 @@
         }
 
         /* Judul */
-        h1 {
+        h2 {
             color: #493b3b;
             margin-bottom: 10px;
         }
@@ -46,66 +46,47 @@
             font-weight: bold;
             cursor: pointer;
             transition: 0.3s;
+            outline: white 2px;
         }
 
-        /* Tombol utama */
-        .btn-primary {
-            background-color: #8aaacc;
+        /* Tombol 1 */
+        .btn-proyek {
+            background-color: rgb(163, 149, 174);
             color: white;
         }
 
-        .btn-primary:hover {
-            background-color: #9aadc1;
+        .btn-proyek:hover {
+            background-color: rgba(112, 65, 90);
         }
 
-        /* Tombol sekunder */
-        .btn-secondary {
+        /* Tombol 2*/
+        .btn-unduh {
             background-color: #6c757d;
             color: white;
         }
 
-        .btn-secondary:hover {
+        .btn-unduh:hover {
             background-color: #545b62;
         }
 
-        /* Tombol sukses */
-        .btn-success {
+        /* Tombol 3*/
+        .btn-hubungi {
             background-color: #8da993;
             color: white;
         }
 
-        .btn-success:hover {
+        .btn-hubungi:hover {
             background-color: #4b5b4e;
         }
 
-        /* Tombol peringatan */
-        .btn-warning {
+        /* Tombol 4*/
+        .btn-pesan {
             background-color: #9d9783;
             color: #212529;
         }
 
-        .btn-warning:hover {
+        .btn-pesan:hover {
             background-color: #59564c;
-        }
-
-        /* Tombol bahaya */
-        .btn-danger {
-            background-color: #ac8a8d;
-            color: white;
-        }
-
-        .btn-danger:hover {
-            background-color: #96696e;
-        }
-
-        /* Tombol informasi */
-        .btn-info {
-            background-color: #63878d;
-            color: white;
-        }
-
-        .btn-info:hover {
-            background-color: #5d7174;
         }
 
         /* Efek saat tombol ditekan */
@@ -116,25 +97,21 @@
 </head>
 
 <body>
-
+<main>
     <h1>Kumpulan Tombol</h1>
     <p>Berbagai jenis tombol dengan warna dan efek berbeda.</p>
 
     <div class="button-container">
 
-        <a href="#primary" class="btn btn-primary">Primary</a>
+        <a href="#proyek" class="btn btn-proyek">Proyek</a>
 
-        <a href="#secondary" class="btn btn-secondary">Secondary</a>
+        <a href="#unduh" class="btn btn-unduh">Unduh CV</a>
 
-        <a href="#success" class="btn btn-success">Success</a>
+        <a href="#hubungi" class="btn btn-hubungi">Hubungi Saya</a>
 
-        <a href="#warning" class="btn btn-warning">Warning</a>
-
-        <a href="#danger" class="btn btn-danger">Danger</a>
-
-        <a href="#info" class="btn btn-info">Info</a>
+        <a href="#pesan" class="btn btn-pesan">Kirim Pesan</a>
 
     </div>
-
+</main>
 </body>
 </html>
